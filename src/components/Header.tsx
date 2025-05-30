@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { BookOpen, Menu, X } from "lucide-react";
 import { useState } from "react";
+import WalletButton from "./WalletButton";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,17 +22,13 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#courses" className="text-gray-700 hover:text-blue-600 transition-colors">Courses</a>
-            <a href="#bootcamp" className="text-gray-700 hover:text-blue-600 transition-colors">Bootcamp</a>
-            <a href="#about" className="text-gray-700 hover:text-blue-600 transition-colors">About</a>
-            <a href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors">Contact</a>
+            <a href="#learn" className="text-gray-700 hover:text-blue-600 transition-colors">Learn</a>
+            <a href="#pricing" className="text-gray-700 hover:text-blue-600 transition-colors">Pricing</a>
+            <a href="#certification" className="text-gray-700 hover:text-blue-600 transition-colors">Certification</a>
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="ghost">Sign In</Button>
-            <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
-              Get Started
-            </Button>
+            <WalletButton />
           </div>
 
           {/* Mobile Menu Button */}
@@ -47,15 +44,11 @@ const Header = () => {
         {isMenuOpen && (
           <nav className="md:hidden mt-4 pb-4 border-t border-gray-200 pt-4">
             <div className="flex flex-col space-y-4">
-              <a href="#courses" className="text-gray-700 hover:text-blue-600 transition-colors">Courses</a>
-              <a href="#bootcamp" className="text-gray-700 hover:text-blue-600 transition-colors">Bootcamp</a>
-              <a href="#about" className="text-gray-700 hover:text-blue-600 transition-colors">About</a>
-              <a href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors">Contact</a>
-              <div className="flex flex-col space-y-2 pt-4">
-                <Button variant="ghost" className="justify-start">Sign In</Button>
-                <Button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 justify-start">
-                  Get Started
-                </Button>
+              <a href="#learn" className="text-gray-700 hover:text-blue-600 transition-colors">Learn</a>
+              <a href="#pricing" className="text-gray-700 hover:text-blue-600 transition-colors">Pricing</a>
+              <a href="#certification" className="text-gray-700 hover:text-blue-600 transition-colors">Certification</a>
+              <div className="pt-4">
+                <WalletButton />
               </div>
             </div>
           </nav>
