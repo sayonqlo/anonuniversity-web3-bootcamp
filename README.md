@@ -48,3 +48,5 @@ git clone https://github.com/sayonqlo/genesis-web3-bootcamp.git
 cd genesis-web3-bootcamp
 npm install
 npm run dev
+
+Make sure you have MetaMask installed and connected to your browser.
