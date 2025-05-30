@@ -1,73 +1,50 @@
-# Welcome to your Lovable project
+# 🧠 AnonU &nbsp; ![AnonU Badge](https://img.shields.io/badge/-AnonU-black?logo=ruby-sinatra&logoColor=white&style=flat-square)
 
-## Project info
+**AnonU** is a decentralized learning platform designed for **career pivoters** who want to break into the blockchain industry—fully self-paced, anonymous, and powered by MetaMask.
 
-**URL**: https://lovable.dev/projects/8af9f395-928f-41d8-ad68-9c498d388e70
+> 🎓 Learn blockchain. Pay once. Stay anonymous. Earn on-chain credentials.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Overview
 
-**Use Lovable**
+AnonU is a **Learning Academy dApp** that allows you to go from complete beginner to **Certified Blockchain Developer** – entirely on your own terms.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/8af9f395-928f-41d8-ad68-9c498d388e70) and start prompting.
+### ✅ Key Features
 
-Changes made via Lovable will be committed automatically to this repo.
+- 🔐 **MetaMask-Only Login**  
+  No accounts, no emails. Just connect your wallet to begin.
 
-**Use your preferred IDE**
+- 🕵️ **Stay Anonymous**  
+  Learn and build under your wallet address or ENS name — your choice.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- 🧩 **Self-Paced Curriculum**  
+  Go from **Blockchain Basics** to **Smart Contract Development** to **Certified Developer**.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- 💸 **Flat-Rate Tuition Model**  
+  Inspired by Western Governors University — pay once, unlock the full academy.
 
-Follow these steps:
+- 🧾 **On-Chain Certification**  
+  Earn NFTs or soulbound tokens that prove your blockchain development skills.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🛠️ Tech Stack
 
-# Step 3: Install the necessary dependencies.
-npm i
+| Layer        | Tech                          |
+|--------------|-------------------------------|
+| Frontend     | React, Tailwind CSS, TypeScript |
+| Web3         | Ethers.js, MetaMask            |
+| Smart Contracts | Solidity, Hardhat             |
+| Storage      | IPFS (future roadmap)         |
+| Payments     | ETH via MetaMask               |
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+---
+
+## 📦 Getting Started
+
+```bash
+git clone https://github.com/sayonqlo/genesis-web3-bootcamp.git
+cd genesis-web3-bootcamp
+npm install
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/8af9f395-928f-41d8-ad68-9c498d388e70) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
