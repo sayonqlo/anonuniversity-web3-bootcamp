@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -29,8 +28,8 @@ const CourseCard = ({ title, description, duration, students, rating, level, pri
         <div className="absolute bottom-4 left-4">
           <Badge className={levelColors[level]}>{level}</Badge>
         </div>
-        <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-lg px-3 py-1">
-          <span className="font-bold text-gray-900">{price}</span>
+        <div className="absolute top-4 right-4 bg-orange-500/90 backdrop-blur-sm rounded-lg px-3 py-1">
+          <span className="font-medium text-white">{price}</span>
         </div>
       </div>
       

@@ -1,4 +1,3 @@
-
 import CourseCard from "./CourseCard";
 
 const CoursesSection = () => {
@@ -10,7 +9,7 @@ const CoursesSection = () => {
       students: 15420,
       rating: 4.8,
       level: "Beginner" as const,
-      price: "$199",
+      price: "Included",
       image: "/placeholder.svg"
     },
     {
@@ -20,7 +19,7 @@ const CoursesSection = () => {
       students: 12850,
       rating: 4.9,
       level: "Intermediate" as const,
-      price: "$299",
+      price: "Included",
       image: "/placeholder.svg"
     },
     {
@@ -30,7 +29,7 @@ const CoursesSection = () => {
       students: 8930,
       rating: 4.7,
       level: "Advanced" as const,
-      price: "$399",
+      price: "Included",
       image: "/placeholder.svg"
     },
     {
@@ -40,7 +39,7 @@ const CoursesSection = () => {
       students: 11200,
       rating: 4.6,
       level: "Intermediate" as const,
-      price: "$259",
+      price: "Included",
       image: "/placeholder.svg"
     },
     {
@@ -50,7 +49,7 @@ const CoursesSection = () => {
       students: 9650,
       rating: 4.9,
       level: "Intermediate" as const,
-      price: "$499",
+      price: "Included",
       image: "/placeholder.svg"
     },
     {
@@ -60,7 +59,7 @@ const CoursesSection = () => {
       students: 6800,
       rating: 4.8,
       level: "Advanced" as const,
-      price: "$349",
+      price: "Included",
       image: "/placeholder.svg"
     }
   ];
@@ -73,7 +72,7 @@ const CoursesSection = () => {
             Featured <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Courses</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Comprehensive curriculum designed by industry experts to take you from beginner to blockchain professional
+            All courses included with your 0.1 ETH flat-rate tuition. Complete access for 3 months.
           </p>
         </div>
 

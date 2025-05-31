@@ -22,7 +22,7 @@ AnonU is a **Learning Academy dApp** that allows you to go from complete beginne
   Go from **Blockchain Basics** to **Smart Contract Development** to **Certified Developer**.
 
 - 💸 **Flat-Rate Tuition Model**  
-  Inspired by Western Governors University — pay once, unlock the full academy.
+  One payment unlocks the full academy for 3 months. Simple and transparent.
 
 - 🧾 **On-Chain Certification**  
   Earn NFTs or soulbound tokens that prove your blockchain development skills.

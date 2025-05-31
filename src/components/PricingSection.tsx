@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check, Zap } from "lucide-react";
@@ -38,7 +37,7 @@ const PricingSection = () => {
             Simple <span className="bg-gradient-to-r from-orange-500 to-orange-600 bg-clip-text text-transparent">Flat-Rate</span> Tuition
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Like Western Governors University, pay once and access everything. No hidden fees, no subscriptions.
+            One simple payment unlocks everything. No hidden fees, no subscriptions.
           </p>
         </div>
 

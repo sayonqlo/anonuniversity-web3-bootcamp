@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Shield, Clock, Award } from "lucide-react";
 import { useWeb3 } from "@/contexts/Web3Context";
@@ -47,7 +46,7 @@ const Hero = () => {
               <Button 
                 size="lg" 
                 variant="outline" 
-                className="text-lg px-8 py-6 border-2 border-gray-600 text-gray-300 hover:bg-gray-800"
+                className="text-lg px-8 py-6 border-2 border-orange-500/30 text-orange-400 hover:bg-orange-500/10"
                 onClick={() => navigate('/courses')}
               >
                 View Curriculum

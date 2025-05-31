@@ -1,4 +1,3 @@
-
 import Header from "@/components/Header";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Shield, Users, Award, BookOpen } from "lucide-react";
@@ -67,9 +66,8 @@ const About = () => {
                 <p className="text-gray-300 text-lg leading-relaxed">
                   AnonU exists to democratize blockchain education while respecting your privacy. 
                   We believe that anyone should be able to learn cutting-edge blockchain technology 
-                  without compromising their anonymity. Our flat-rate tuition model, inspired by 
-                  Western Governors University, ensures that financial barriers don't prevent 
-                  talented individuals from entering the blockchain space.
+                  without compromising their anonymity. Our innovative flat-rate tuition model ensures 
+                  that financial barriers don't prevent talented individuals from entering the blockchain space.
                 </p>
               </CardContent>
             </Card>
