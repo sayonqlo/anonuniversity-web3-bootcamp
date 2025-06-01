@@ -44,8 +44,8 @@ AnonU is a **Learning Academy dApp** that allows you to go from complete beginne
 ## 📦 Getting Started
 
 ```bash
-git clone https://github.com/sayonqlo/genesis-web3-bootcamp.git
-cd genesis-web3-bootcamp
+git clone https://github.com/sayonqlo/anonuniversity-web3-bootcamp.git
+cd anonuniversity-web3-bootcamp
 npm install
 npm run dev
 ```
